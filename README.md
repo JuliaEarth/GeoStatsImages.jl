@@ -26,6 +26,9 @@ Preview
 #### WalkerLake
 ![WalkerLakePreview](src/data/WalkerLake.png)
 
+#### StoneWall
+![StoneWallPreview](src/data/StoneWall.png)
+
 ### Categorical
 
 #### Strebelle
