@@ -25,7 +25,7 @@ Preview
 
 ### Categorical
 #### Strebelle
-![StrebellePreview](data/Strebelle.png)
+![StrebellePreview](src/data/Strebelle.png)
 
 REFERENCES
 ----------
