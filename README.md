@@ -23,7 +23,11 @@ Preview
 
 ### Continuous
 
+#### WalkerLake
+![WalkerLakePreview](src/data/WalkerLake.png)
+
 ### Categorical
+
 #### Strebelle
 ![StrebellePreview](src/data/Strebelle.png)
 
