@@ -16,7 +16,7 @@ database = Dict("Strebelle" => "data/Strebelle.dat")
 
 available = collect(keys(database))
 
-function training_image(identifier)
+function training_image(identifier::String)
   @assert identifier ∈ available "training image not available"
 
   datafile = database[identifier]
