@@ -25,6 +25,7 @@ Preview
 
 ### Categorical
 #### Strebelle
+![StrebellePreview](data/Strebelle.png)
 
 REFERENCES
 ----------
