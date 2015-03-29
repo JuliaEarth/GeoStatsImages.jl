@@ -13,7 +13,8 @@
 ## OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 database = Dict("Strebelle"  => "data/Strebelle.dat",
-                "WalkerLake" => "data/WalkerLake.dat")
+                "WalkerLake" => "data/WalkerLake.dat",
+                "StoneWall"  => "data/StoneWall.dat")
 
 available = collect(keys(database))
 
