@@ -13,7 +13,18 @@ Pkg.add("TrainingImages")
 Usage
 -----
 
+```julia
+TI = training_image(identifier::String)
+```
+where `identifier` can be any of the strings listed with the command `TrainingImages.available`
 
+Preview
+-------
+
+### Continuous
+
+### Categorical
+#### Strebelle
 
 REFERENCES
 ----------
