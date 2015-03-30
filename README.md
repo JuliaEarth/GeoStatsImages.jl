@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/juliohm/TrainingImages.jl.png)](https://travis-ci.org/juliohm/TrainingImages.jl)
+[![TrainingImages](http://pkg.julialang.org/badges/TrainingImages_nightly.svg)](http://pkg.julialang.org/?pkg=TrainingImages&ver=nightly)
+
 TrainingImages.jl
 =================
 
