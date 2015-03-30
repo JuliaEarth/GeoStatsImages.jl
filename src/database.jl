@@ -12,10 +12,11 @@
 ## ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ## OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-database = Dict("Strebelle"  => "data/Strebelle.dat",
-                "WalkerLake" => "data/WalkerLake.dat",
-                "StoneWall"  => "data/StoneWall.dat",
-                "Herten"     => "data/Herten.dat")
+database = Dict("Strebelle"       => "data/Strebelle.dat",
+                "WalkerLake"      => "data/WalkerLake.dat",
+                "StoneWall"       => "data/StoneWall.dat",
+                "Herten"          => "data/Herten.dat",
+                "WestCoastAfrica" => "data/WestCoastAfrica")
 
 available = collect(keys(database))
 

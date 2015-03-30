@@ -37,6 +37,9 @@ Preview
 #### Strebelle
 ![StrebellePreview](src/data/Strebelle.png)
 
+#### WestCoastAfrica
+![WestCoastAfricaPreview](src/data/WestCoastAfrica.png)
+
 REFERENCES
 ----------
 
