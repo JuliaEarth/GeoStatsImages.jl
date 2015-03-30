@@ -14,7 +14,8 @@
 
 database = Dict("Strebelle"  => "data/Strebelle.dat",
                 "WalkerLake" => "data/WalkerLake.dat",
-                "StoneWall"  => "data/StoneWall.dat")
+                "StoneWall"  => "data/StoneWall.dat",
+                "Herten"     => "data/Herten.dat")
 
 available = collect(keys(database))
 

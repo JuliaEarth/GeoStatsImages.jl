@@ -29,6 +29,9 @@ Preview
 #### StoneWall
 ![StoneWallPreview](src/data/StoneWall.png)
 
+#### Herten
+![HertenPreview](src/data/Herten.png)
+
 ### Categorical
 
 #### Strebelle
