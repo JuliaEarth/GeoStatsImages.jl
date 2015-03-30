@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/juliohm/TrainingImages.jl.png)](https://travis-ci.org/juliohm/TrainingImages.jl)
-[![TrainingImages](http://pkg.julialang.org/badges/TrainingImages_nightly.svg)](http://pkg.julialang.org/?pkg=TrainingImages&ver=nightly)
+[![Build Status](https://travis-ci.org/juliohm/GeoStatsImages.jl.png)](https://travis-ci.org/juliohm/GeoStatsImages.jl)
+[![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_nightly.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages&ver=nightly)
 
-TrainingImages.jl
+GeoStatsImages.jl
 =================
 
 Training images for geostastical simulation.
@@ -10,7 +10,7 @@ Installation
 ------------
 
 ```julia
-Pkg.add("TrainingImages")
+Pkg.add("GeoStatsImages")
 ```
 
 Usage
@@ -19,7 +19,7 @@ Usage
 ```julia
 TI = training_image(identifier::String)
 ```
-where `identifier` can be any of the strings listed with the command `TrainingImages.available`
+where `identifier` can be any of the strings listed with the command `GeoStatsImages.available`
 
 Preview
 -------
