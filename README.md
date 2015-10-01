@@ -4,7 +4,7 @@ GeoStatsImages.jl
 Training images for geostastical simulation.
 
 [![Build Status](https://travis-ci.org/juliohm/GeoStatsImages.jl.svg?branch=master)](https://travis-ci.org/juliohm/GeoStatsImages.jl)
-[![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_nightly.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages&ver=nightly)
+[![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_0.4.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages&ver=0.4)
 
 Installation
 ------------
