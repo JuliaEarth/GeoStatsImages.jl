@@ -22,7 +22,7 @@ database = Dict("Strebelle"       => joinpath(datadir,"Strebelle.dat"),
 
 available = collect(keys(database))
 
-function training_image(identifier::String)
+function training_image(identifier::AbstractString)
   @assert identifier ∈ available "training image not available"
 
   datafile = database[identifier]
