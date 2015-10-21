@@ -16,6 +16,7 @@ datadir = joinpath(Pkg.dir(),"GeoStatsImages","src","data")
 
 database = Dict("Strebelle"       => joinpath(datadir,"Strebelle.dat"),
                 "WalkerLake"      => joinpath(datadir,"WalkerLake.dat"),
+                "WalkerLakeTruth" => joinpath(datadir,"WalkerLakeTruth.dat"),
                 "StoneWall"       => joinpath(datadir,"StoneWall.dat"),
                 "Herten"          => joinpath(datadir,"Herten.dat"),
                 "WestCoastAfrica" => joinpath(datadir,"WestCoastAfrica.dat"))
