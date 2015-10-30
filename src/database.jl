@@ -13,15 +13,14 @@
 ## OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 datadir = joinpath(Pkg.dir(),"GeoStatsImages","src","data")
+datafiles = filter(s -> ismatch(r".*\.dat", s), readdir(datadir))
 
-database = Dict("Strebelle"       => joinpath(datadir,"Strebelle.dat"),
-                "WalkerLake"      => joinpath(datadir,"WalkerLake.dat"),
-                "WalkerLakeTruth" => joinpath(datadir,"WalkerLakeTruth.dat"),
-                "StoneWall"       => joinpath(datadir,"StoneWall.dat"),
-                "Herten"          => joinpath(datadir,"Herten.dat"),
-                "WestCoastAfrica" => joinpath(datadir,"WestCoastAfrica.dat"))
+database = Dict()
+for fname in datafiles
+  push!(database, fname[1:end-4] => joinpath(datadir, fname))
+end
 
-available = collect(keys(database))
+available = sort(collect(keys(database)))
 
 function training_image(identifier::AbstractString)
   @assert identifier ∈ available "training image not available"
