@@ -38,6 +38,9 @@ Preview
 #### Herten
 ![HertenPreview](src/data/Herten.png)
 
+#### FlumeContinuous{01,02,...,13}
+![FlumeContinuousPreview](src/data/FlumeContinuous.png)
+
 ### Categorical
 
 #### Strebelle
