@@ -46,6 +46,9 @@ Preview
 #### Strebelle
 ![StrebellePreview](src/data/Strebelle.png)
 
+#### FlumeBinary{01,02,...,13}
+![FlumeBinaryPreview](src/data/FlumeBinary.png)
+
 #### WestCoastAfrica
 ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png)
 
