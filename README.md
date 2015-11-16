@@ -38,6 +38,9 @@ Preview
 #### Herten
 ![HertenPreview](src/data/Herten.png)
 
+#### Lena
+![LenaPreview](src/data/Lena.png)
+
 #### FlumeContinuous{01,02,...,13}
 ![FlumeContinuousPreview](src/data/FlumeContinuous.png)
 
