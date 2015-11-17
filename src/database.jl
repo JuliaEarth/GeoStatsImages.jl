@@ -32,11 +32,8 @@ function training_image(identifier::AbstractString)
   nx = parse(Int, nx)
   ny = parse(Int, ny)
   nz = parse(Int, nz)
+  data = readdlm(f)
   close(f)
-
-  T = (kind == "categorical") ? Int : Float64
-
-  data = readdlm(datafile, ' ', T, skipstart=1)
 
   reshape(data, nx, ny, nz)
 end
