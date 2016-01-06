@@ -55,6 +55,9 @@ Preview
 #### WestCoastAfrica
 ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png)
 
+#### Flumy
+![FlumyPreview](src/data/Flumy.png)
+
 REFERENCES
 ----------
 
