@@ -58,6 +58,9 @@ Preview
 #### Flumy
 ![FlumyPreview](src/data/Flumy.png)
 
+#### Fluvsim
+![FluvsimPreview](src/data/Fluvsim.png)
+
 REFERENCES
 ----------
 
