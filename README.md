@@ -64,7 +64,7 @@ Preview
 Contributing
 ------------
 
-If you would like to add a training image to the collection, please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) with a preview.
+If you want to add a training image to the collection, please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) with a preview.
 
 REFERENCES
 ----------
