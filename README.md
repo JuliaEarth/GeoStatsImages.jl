@@ -61,6 +61,11 @@ Preview
 #### Fluvsim
 ![FluvsimPreview](src/data/Fluvsim.png)
 
+Contributing
+------------
+
+If you would like to add a training image to the collection, please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) with a preview.
+
 REFERENCES
 ----------
 
