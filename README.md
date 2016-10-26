@@ -79,3 +79,5 @@ REFERENCES
 Gregoire, M.; Caers, J., 2014. Multiple-point Geostatistics: Stochastic Modeling with Training Images. [[WEBSITE](http://trainingimages.org)]
 
 St. Anthony Falls Laboratory, University of Minnesota. [[WEBSITE](https://www.esci.umn.edu/orgs/seds/Sedi_Research.htm)]
+
+Mao, S.; Journel, A., 1999. Generation of a reference petrophysical/seismic data set: the Stanford V reservoir. [[PAPER](http://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip)]
