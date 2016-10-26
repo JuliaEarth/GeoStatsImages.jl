@@ -8,7 +8,7 @@ Training images for geostastical simulation.
 
 This package converts famous training images from the geostatistcs literature to a standard format for quick experimentation in Julia. Please consult the references at the bottom of this page for more details.
 
-The author does not hold any copyright on the data.
+The author does not hold any copyright on the data. Please give credit to the sources.
 
 Installation
 ------------
