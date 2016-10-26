@@ -48,6 +48,9 @@ Preview
 #### FlumeContinuous{01,02,...,13}
 ![FlumeContinuousPreview](src/data/FlumeContinuous.png)
 
+#### StanfordV
+![StanfordVPreview](src/data/StanfordV.png)
+
 ### Categorical
 
 #### Strebelle
