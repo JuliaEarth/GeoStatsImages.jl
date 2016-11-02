@@ -4,7 +4,7 @@ GeoStatsImages.jl
 Training images for geostastical simulation.
 
 [![Build Status](https://travis-ci.org/juliohm/GeoStatsImages.jl.svg?branch=master)](https://travis-ci.org/juliohm/GeoStatsImages.jl)
-[![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_0.4.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages&ver=0.4)
+[![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_0.5.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages)
 
 This package converts famous training images from the geostatistcs literature to a standard format for quick experimentation in Julia. Please consult the references at the bottom of this page for more details.
 
