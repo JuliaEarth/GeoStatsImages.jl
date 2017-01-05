@@ -3,7 +3,7 @@ using Base.Test
 
 @testset "Basic checks" begin
   # all available images loaded as arrays
-  for identifier in GeoStatsImages.available
+  for identifier in GeoStatsImages.identifiers
     @test isa(training_image(identifier), AbstractArray)
   end
 

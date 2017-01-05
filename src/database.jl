@@ -12,7 +12,7 @@
 ## ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ## OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-datadir = joinpath(Pkg.dir(),"GeoStatsImages","src","data")
+datadir = joinpath(Pkg.dir("GeoStatsImages"),"src","data")
 datafiles = filter(s -> ismatch(r".*\.dat", s), readdir(datadir))
 
 database = Dict()
@@ -20,10 +20,16 @@ for fname in datafiles
   push!(database, fname[1:end-4] => joinpath(datadir, fname))
 end
 
-available = sort(collect(keys(database)))
+identifiers = sort(collect(keys(database)))
+
+function available()
+  for identifier in identifiers
+    println(identifier)
+  end
+end
 
 function training_image(identifier::AbstractString)
-  @assert identifier ∈ available "training image not available"
+  @assert identifier ∈ identifiers "training image not available"
 
   datafile = database[identifier]
 

@@ -24,7 +24,7 @@ Usage
 ```julia
 TI = training_image(identifier::AbstractString)
 ```
-where `identifier` can be any of the strings listed with the command `GeoStatsImages.available`
+where `identifier` can be any of the strings listed with the command `GeoStatsImages.available()`
 
 Preview
 -------
