@@ -1,7 +1,7 @@
 GeoStatsImages.jl
 =================
 
-Training images for geostastical simulation in [Julia](http://julialang.org).
+*Training images for geostastical simulation in Julia.*
 
 [![Build Status](https://travis-ci.org/juliohm/GeoStatsImages.jl.svg?branch=master)](https://travis-ci.org/juliohm/GeoStatsImages.jl)
 [![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_0.5.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages)
