@@ -12,7 +12,7 @@
 ## ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ## OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-datadir = joinpath(Pkg.dir("GeoStatsImages"),"src","data")
+datadir = joinpath(dirname(@__FILE__),"data")
 datafiles = filter(s -> ismatch(r".*\.dat", s), readdir(datadir))
 
 database = Dict()
