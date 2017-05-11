@@ -74,7 +74,9 @@ Preview
 Contributing
 ------------
 
-You are encouraged to contribute, please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) with a preview of the proposed image.
+Contributions are very welcome, as are feature requests and suggestions.
+
+Please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) if you encounter any problems.
 
 REFERENCES
 ----------
