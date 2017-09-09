@@ -7,11 +7,13 @@ GeoStatsImages.jl
 [![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_0.5.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages)
 [![Coverage Status](https://codecov.io/gh/juliohm/GeoStatsImages.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/juliohm/GeoStatsImages.jl)
 
-This package converts famous training images from the geostatistcs literature to
-a standard format for quick experimentation in Julia. Please consult the references
-at the bottom of this page for more details.
+This package converts famous training images from the geostatistcs
+literature to a standard format for quick experimentation in Julia.
+It is part of the [GeoStats.jl](https://github.com/juliohm/GeoStats.jl)
+framework and can be used in conjunction with multiple-point simulation
+solvers implemented therein.
 
-**The author does not hold any copyright on the data. Please give credit to the sources.**
+**The author does not hold any copyright on the data. Please give credit to the sources at the bottom of this page.**
 
 Installation
 ------------
