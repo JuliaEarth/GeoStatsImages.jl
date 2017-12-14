@@ -42,9 +42,9 @@ Preview
 | Lena | ![LenaPreview](src/data/Lena.png) | Continuous | [Mariethoz & Caers 2014][TI-book-url] |
 | StanfordV | ![StanfordVPreview](src/data/StanfordV.png) | Continuous | [Mao & Journel 2014][StanfordV-url] |
 | Strebelle | ![StrebellePreview](src/data/Strebelle.png) | Categorical | [Strebelle 2002][SNESIM-url] |
-| WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | Foo |
-| Flumy | ![FlumyPreview](src/data/Flumy.png) | Categorical | Foo |
-| Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | Foo |
+| WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
+| Flumy | ![FlumyPreview](src/data/Flumy.png) | Categorical | None |
+| Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | ? |
 
 ### Collections
 
