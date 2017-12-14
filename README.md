@@ -13,7 +13,7 @@ It is part of the [GeoStats.jl](https://github.com/juliohm/GeoStats.jl)
 framework and can be used in conjunction with multiple-point simulation
 solvers.
 
-**The author does not hold any copyright on the data. Please give credit to the sources at the bottom of this page.**
+**The author does not hold any copyright on the data. Please give credit to the sources in the table.**
 
 Installation
 ------------
