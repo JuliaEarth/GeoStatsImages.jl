@@ -33,45 +33,28 @@ where `identifier` can be any of the strings listed with the command `GeoStatsIm
 Preview
 -------
 
-### Continuous
+| Identifier | Preview | Type | Data source |
+| ---------- |:-------:| ---- | ----------- |
+| WalkerLake | ![WalkerLakePreview](src/data/WalkerLake.png) | Continuous | [Mariethoz & Caers, 2014][TI-book-url] |
+| WalkerLakeTruth | ![WalkerLakeTruthPreview](src/data/WalkerLakeTruth.png) | Continuous | [Mariethoz & Caers, 2014][TI-book-url] |
+| StoneWall | ![StoneWallPreview](src/data/StoneWall.png) | Continuous | [Mariethoz & Caers 2014][TI-book-url] |
+| Herten | ![HertenPreview](src/data/Herten.png) | Continuous | [Mariethoz & Caers 2014][TI-book-url] |
+| Lena | ![LenaPreview](src/data/Lena.png) | Continuous | [Mariethoz & Caers 2014][TI-book-url] |
+| StanfordV | ![StanfordVPreview](src/data/StanfordV.png) | Continuous | [Mao & Journel 2014][StanfordV-url] |
+| Strebelle | ![StrebellePreview](src/data/Strebelle.png) | Categorical | [Strebelle 2002][SNESIM-url] |
+| WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | Foo |
+| Flumy | ![FlumyPreview](src/data/Flumy.png) | Categorical | Foo |
+| Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | Foo |
 
-#### WalkerLake
-![WalkerLakePreview](src/data/WalkerLake.png)
+### Collections
 
-#### WalkerLakeTruth
-![WalkerLakeTruthPreview](src/data/WalkerLakeTruth.png)
-
-#### StoneWall
-![StoneWallPreview](src/data/StoneWall.png)
-
-#### Herten
-![HertenPreview](src/data/Herten.png)
-
-#### Lena
-![LenaPreview](src/data/Lena.png)
+[St. Anthony Falls Laboratory](https://www.esci.umn.edu/orgs/seds/Sedi_Research.htm)
 
 #### FlumeContinuous{01,02,...,13}
 ![FlumeContinuousPreview](src/data/FlumeContinuous.png)
 
-#### StanfordV
-![StanfordVPreview](src/data/StanfordV.png)
-
-### Categorical
-
-#### Strebelle
-![StrebellePreview](src/data/Strebelle.png)
-
 #### FlumeBinary{01,02,...,13}
 ![FlumeBinaryPreview](src/data/FlumeBinary.png)
-
-#### WestCoastAfrica
-![WestCoastAfricaPreview](src/data/WestCoastAfrica.png)
-
-#### Flumy
-![FlumyPreview](src/data/Flumy.png)
-
-#### Fluvsim
-![FluvsimPreview](src/data/Fluvsim.png)
 
 Contributing
 ------------
@@ -80,11 +63,6 @@ Contributions are very welcome, as are feature requests and suggestions.
 
 Please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) if you encounter any problems.
 
-REFERENCES
-----------
-
-Gregoire, M.; Caers, J., 2014. Multiple-point Geostatistics: Stochastic Modeling with Training Images. [[WEBSITE](http://trainingimages.org)]
-
-St. Anthony Falls Laboratory, University of Minnesota. [[WEBSITE](https://www.esci.umn.edu/orgs/seds/Sedi_Research.htm)]
-
-Mao, S.; Journel, A., 1999. Generation of a reference petrophysical/seismic data set: the Stanford V reservoir. [[PAPER](http://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip)]
+[TI-book-url]: http://trainingimages.org
+[StanfordV-url]: http://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip
+[SNESIM-url]: https://link.springer.com/article/10.1023/A%3A1014009426274
