@@ -44,7 +44,7 @@ Preview
 | Strebelle | ![StrebellePreview](src/data/Strebelle.png) | Categorical | [Strebelle 2002][SNESIM-url] |
 | WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
 | Flumy | ![FlumyPreview](src/data/Flumy.png) | Categorical | None |
-| Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | ? |
+| Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | [Mariethoz & Caers, 2014][TI-book-url] |
 
 ### Collections
 
