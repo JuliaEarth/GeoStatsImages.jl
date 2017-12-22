@@ -45,7 +45,7 @@ Preview
 | WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
 | Flumy | ![FlumyPreview](src/data/Flumy.png) | Categorical | None |
 | Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | [Mariethoz & Caers, 2014][TI-book-url] |
-| Ketton | ![Ketton](src/data/Ketton.png) | Categorical | [Imperial College Pore-Scale Modelling Group][Imperical-college] |
+| Ketton | ![Ketton](src/data/Ketton.png) | Categorical | [Imperial College Pore-Scale Modelling Group][Imperial-college] |
 
 ### Collections
 
