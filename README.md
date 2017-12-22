@@ -45,6 +45,7 @@ Preview
 | WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
 | Flumy | ![FlumyPreview](src/data/Flumy.png) | Categorical | None |
 | Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | [Mariethoz & Caers, 2014][TI-book-url] |
+| Ketton | ![Ketton](src/data/Ketton.png) | Categorical | [Imperial College Pore-Scale Modelling Group][Imperical-college] |
 
 ### Collections
 
@@ -66,3 +67,4 @@ Please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) if y
 [TI-book-url]: http://trainingimages.org
 [StanfordV-url]: http://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip
 [SNESIM-url]: https://link.springer.com/article/10.1023/A%3A1014009426274
+[Imperial-college]: http://www.imperial.ac.uk/earth-science/research/research-groups/perm/research/pore-scale-modelling/micro-ct-images-and-networks
