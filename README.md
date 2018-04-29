@@ -42,6 +42,7 @@ Preview
 | Lena | ![LenaPreview](src/data/Lena.png) | Continuous | [Mariethoz & Caers 2014][TI-book-url] |
 | StanfordV | ![StanfordVPreview](src/data/StanfordV.png) | Continuous | [Mao & Journel 2014][StanfordV-url] |
 | Strebelle | ![StrebellePreview](src/data/Strebelle.png) | Categorical | [Strebelle 2002][SNESIM-url] |
+| Ellipsoids | ![EllipsoidsPreview](src/data/Ellipsoids.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
 | WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
 | Flumy | ![FlumyPreview](src/data/Flumy.png) | Categorical | [Hoffimann et al 2017][IQSIM-url] |
 | Fluvsim | ![FluvsimPreview](src/data/Fluvsim.png) | Categorical | [Mariethoz & Caers, 2014][TI-book-url] |
