@@ -3,9 +3,7 @@ GeoStatsImages.jl
 
 *Training images for geostastical simulation in Julia.*
 
-[![Build Status](https://travis-ci.org/juliohm/GeoStatsImages.jl.svg?branch=master)](https://travis-ci.org/juliohm/GeoStatsImages.jl)
-[![GeoStatsImages](http://pkg.julialang.org/badges/GeoStatsImages_0.5.svg)](http://pkg.julialang.org/?pkg=GeoStatsImages)
-[![Coverage Status](https://codecov.io/gh/juliohm/GeoStatsImages.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/juliohm/GeoStatsImages.jl)
+[![][travis-img]][travis-url] [![][julia-pkg-img]][julia-pkg-url] [![][codecov-img]][codecov-url]
 
 This package converts famous training images from the geostatistcs
 literature to a standard format for quick experimentation in Julia.
@@ -63,10 +61,19 @@ Contributing
 
 Contributions are very welcome, as are feature requests and suggestions.
 
-Please [open an issue](https://github.com/juliohm/GeoStatsImages.jl/issues) if you encounter any problems.
+If you have any questions, please contact our community on the [gitter channel](https://gitter.im/JuliaEarth/GeoStats.jl).
 
 [TI-book-url]: http://trainingimages.org
 [StanfordV-url]: http://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip
 [SNESIM-url]: https://link.springer.com/article/10.1023/A%3A1014009426274
 [IQSIM-url]: http://www.sciencedirect.com/science/article/pii/S0098300417301139
 [Imperial-college]: http://www.imperial.ac.uk/earth-science/research/research-groups/perm/research/pore-scale-modelling/micro-ct-images-and-networks
+
+[travis-img]: https://travis-ci.org/juliohm/GeoStatsImages.jl.svg?branch=master
+[travis-url]: https://travis-ci.org/juliohm/GeoStatsImages.jl
+
+[julia-pkg-img]: http://pkg.julialang.org/badges/GeoStatsImages_0.7.svg
+[julia-pkg-url]: http://pkg.julialang.org/?pkg=GeoStatsImages
+
+[codecov-img]: https://codecov.io/gh/juliohm/GeoStatsImages.jl/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/juliohm/GeoStatsImages.jl

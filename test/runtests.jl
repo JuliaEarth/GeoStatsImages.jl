@@ -1,5 +1,5 @@
 using GeoStatsImages
-using Base.Test
+using Test
 
 @testset "Basic checks" begin
   # all images loaded as arrays
