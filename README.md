@@ -16,8 +16,10 @@ solvers.
 Installation
 ------------
 
+Get the latest stable release with Julia's package manager:
+
 ```julia
-Pkg.add("GeoStatsImages")
+] add GeoStatsImages
 ```
 
 Usage
