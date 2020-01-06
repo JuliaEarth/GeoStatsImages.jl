@@ -71,8 +71,8 @@ If you have any questions, please contact our community on the [gitter channel](
 [IQSIM-url]: http://www.sciencedirect.com/science/article/pii/S0098300417301139
 [Imperial-college]: http://www.imperial.ac.uk/earth-science/research/research-groups/perm/research/pore-scale-modelling/micro-ct-images-and-networks
 
-[travis-img]: https://travis-ci.org/juliohm/GeoStatsImages.jl.svg?branch=master
-[travis-url]: https://travis-ci.org/juliohm/GeoStatsImages.jl
+[travis-img]: https://travis-ci.org/JuliaEarth/GeoStatsImages.jl.svg?branch=master
+[travis-url]: https://travis-ci.org/JuliaEarth/GeoStatsImages.jl
 
 [codecov-img]: https://codecov.io/gh/juliohm/GeoStatsImages.jl/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/juliohm/GeoStatsImages.jl
