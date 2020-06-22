@@ -6,30 +6,22 @@ module GeoStatsImages
 
 using DelimitedFiles: readdlm
 
-export training_image
+export geostatsimage
 
-datadir = joinpath(dirname(@__FILE__),"data")
-datafiles = filter(s -> occursin(r".*\.dat", s), readdir(datadir))
+datadir = joinpath(@__DIR__, "data")
+fnames  = readdir(datadir, join=true)
 
-database = Dict()
-for fname in datafiles
-  push!(database, fname[1:end-4] => joinpath(datadir, fname))
-end
+isdata(fname) = occursin(r".*\.dat", fname)
+id(fname) = splitext(basename(fname))[1]
 
-identifiers = sort(collect(keys(database)))
+db = Dict(id(fname) => fname for fname in filter(isdata, fnames))
 
-function available()
-  for identifier in identifiers
-    println(identifier)
-  end
-end
+available() = sort(collect(keys(db)))
 
-function training_image(identifier::AbstractString)
-  @assert identifier ∈ identifiers "training image not available"
+function geostatsimage(id)
+  @assert id ∈ keys(db) "image not available"
 
-  datafile = database[identifier]
-
-  f = open(datafile)
+  f = open(db[id])
   kind, nx, ny, nz = split(strip(readline(f)))
   nx = parse(Int, nx)
   ny = parse(Int, ny)
