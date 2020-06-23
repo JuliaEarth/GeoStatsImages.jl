@@ -52,10 +52,10 @@ Preview
 
 [St. Anthony Falls Laboratory](https://www.esci.umn.edu/orgs/seds/Sedi_Research.htm)
 
-#### FlumeContinuous{01,02,...,13}
+#### FlumeContinuous
 ![FlumeContinuousPreview](src/data/FlumeContinuous.png)
 
-#### FlumeBinary{01,02,...,13}
+#### FlumeBinary
 ![FlumeBinaryPreview](src/data/FlumeBinary.png)
 
 Contributing
