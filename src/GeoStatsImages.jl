@@ -5,6 +5,7 @@
 module GeoStatsImages
 
 using FileIO
+using GslibIO
 
 export geostatsimage
 
