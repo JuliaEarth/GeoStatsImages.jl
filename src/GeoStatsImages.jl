@@ -9,7 +9,7 @@ using FileIO
 export geostatsimage
 
 datadir = joinpath(@__DIR__, "data")
-fnames  = readdir(datadir, join=true)
+fnames  = [joinpath(datadir, fname) for fname in readdir(datadir)]
 
 isdata(fname) = occursin(r".*\.gslib", fname)
 id(fname) = splitext(basename(fname))[1]
