@@ -41,6 +41,7 @@ Preview
 | Herten | ![HertenPreview](src/data/Herten.png) | Continuous | [Mariethoz & Caers 2014][TI-book-url] |
 | Lena | ![LenaPreview](src/data/Lena.png) | Continuous | [Mariethoz & Caers 2014][TI-book-url] |
 | StanfordV | ![StanfordVPreview](src/data/StanfordV.png) | Continuous | [Mao & Journel 2014][StanfordV-url] |
+| Gaussian30x10 | ![Gaussian30x10Preview](src/data/Gaussian30x10.png) | Continuous | [Hoffimann 2020][Gaussian30x10-url] |
 | Strebelle | ![StrebellePreview](src/data/Strebelle.png) | Categorical | [Strebelle 2002][SNESIM-url] |
 | Ellipsoids | ![EllipsoidsPreview](src/data/Ellipsoids.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
 | WestCoastAfrica | ![WestCoastAfricaPreview](src/data/WestCoastAfrica.png) | Categorical | [Mariethoz & Caers 2014][TI-book-url] |
@@ -65,10 +66,11 @@ Contributions are very welcome, as are feature requests and suggestions.
 
 If you have any questions, please contact our community on the [gitter channel](https://gitter.im/JuliaEarth/GeoStats.jl).
 
-[TI-book-url]: http://trainingimages.org
-[StanfordV-url]: http://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip
+[TI-book-url]: https://trainingimages.org
+[StanfordV-url]: https://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip
+[Gaussian30x10-url]: https://github.com/JuliaEarth/GeoStatsTutorials
 [SNESIM-url]: https://link.springer.com/article/10.1023/A%3A1014009426274
-[IQSIM-url]: http://www.sciencedirect.com/science/article/pii/S0098300417301139
+[IQSIM-url]: https://www.sciencedirect.com/science/article/pii/S0098300417301139
 [Imperial-college]: http://www.imperial.ac.uk/earth-science/research/research-groups/perm/research/pore-scale-modelling/micro-ct-images-and-networks
 
 [travis-img]: https://travis-ci.org/JuliaEarth/GeoStatsImages.jl.svg?branch=master
