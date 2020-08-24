@@ -1,7 +1,7 @@
 name = "GeoStatsImages"
 uuid = "7cd16168-b42c-5e7d-a585-4f59d326662d"
 author = "Júlio Hoffimann <julio.hoffimann@gmail.com>"
-version = "0.5.1"
+version = "0.5.0"
 
 [deps]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
