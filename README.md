@@ -3,7 +3,7 @@ GeoStatsImages.jl
 
 *Training images for geostastical simulation in Julia.*
 
-[![][travis-img]][travis-url] [![][codecov-img]][codecov-url]
+[![][build-img]][build-url] [![][codecov-img]][codecov-url]
 
 This package converts famous training images from the geostatistcs
 literature to a standard format for quick experimentation in Julia.
@@ -73,8 +73,8 @@ If you have any questions, please contact our community on the [gitter channel](
 [IQSIM-url]: https://www.sciencedirect.com/science/article/pii/S0098300417301139
 [Imperial-college]: http://www.imperial.ac.uk/earth-science/research/research-groups/perm/research/pore-scale-modelling/micro-ct-images-and-networks
 
-[travis-img]: https://travis-ci.org/JuliaEarth/GeoStatsImages.jl.svg?branch=master
-[travis-url]: https://travis-ci.org/JuliaEarth/GeoStatsImages.jl
+[build-img]: https://img.shields.io/github/workflow/status/JuliaEarth/GeoStatsImages.jl/CI
+[build-url]: https://github.com/JuliaEarth/GeoStatsImages.jl/actions
 
 [codecov-img]: https://codecov.io/gh/juliohm/GeoStatsImages.jl/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/juliohm/GeoStatsImages.jl
