@@ -1,0 +1,3 @@
+[deps]
+GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
