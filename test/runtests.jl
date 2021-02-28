@@ -5,7 +5,7 @@ using Test
 @testset "Basic checks" begin
   # all images loaded as arrays
   for id in GeoStatsImages.available()
-    @test isa(geostatsimage(id), SpatialData)
+    @test geostatsimage(id) isa GeoData
   end
 
   # throws on non existing identifier
