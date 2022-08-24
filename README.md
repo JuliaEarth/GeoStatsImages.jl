@@ -13,15 +13,6 @@ solvers.
 
 **The author does not hold any copyright on the data. Please give credit to the sources in the table.**
 
-Installation
-------------
-
-Get the latest stable release with Julia's package manager:
-
-```julia
-] add GeoStatsImages
-```
-
 Usage
 -----
 
