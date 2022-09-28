@@ -4,7 +4,6 @@
 
 module GeoStatsImages
 
-using FileIO
 using GslibIO
 
 export geostatsimage
@@ -33,7 +32,7 @@ identifiers, run `GeoStatsImages.available()`.
 """
 function geostatsimage(id)
   @assert id ∈ keys(db) "image not available"
-  load(joinpath(datadir,id*".gslib"))
+  GslibIO.load(joinpath(datadir,id*".gslib"))
 end
 
-end # module
+end
