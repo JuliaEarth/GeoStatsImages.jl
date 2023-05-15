@@ -9,7 +9,7 @@ using GslibIO
 export geostatsimage
 
 datadir = joinpath(@__DIR__, "data")
-fnames  = [joinpath(datadir, fname) for fname in readdir(datadir)]
+fnames = [joinpath(datadir, fname) for fname in readdir(datadir)]
 
 isdata(fname) = occursin(r".*\.gslib", fname)
 id(fname) = splitext(basename(fname))[1]
@@ -32,7 +32,7 @@ identifiers, run `GeoStatsImages.available()`.
 """
 function geostatsimage(id)
   @assert id ∈ keys(db) "image not available"
-  GslibIO.load(joinpath(datadir,id*".gslib"))
+  GslibIO.load(joinpath(datadir, id * ".gslib"))
 end
 
 end
