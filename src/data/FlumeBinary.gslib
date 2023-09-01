@@ -1,8 +1,22 @@
-# This file was generated with GslibIO.jl
+This file was generated with GslibIO.jl
+grid
 300 260
-0.000000 0.000000
-1.000000 1.000000
-Z01 Z02 Z03 Z04 Z05 Z06 Z07 Z08 Z09 Z10 Z11 Z12 Z13
+0.0 0.0
+1.0 1.0
+13
+Z01
+Z02
+Z03
+Z04
+Z05
+Z06
+Z07
+Z08
+Z09
+Z10
+Z11
+Z12
+Z13
 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
 NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
