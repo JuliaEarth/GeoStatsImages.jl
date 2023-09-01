@@ -1,7 +1,9 @@
-# This file was generated with GslibIO.jl
+This file was generated with GslibIO.jl
+grid
 300 260
-0.000000 0.000000
-1.000000 1.000000
+0.0 0.0
+1.0 1.0
+1
 Z
 0.12714265567507277
 0.12668111129629867
