@@ -3,7 +3,8 @@ GeoStatsImages.jl
 
 *Training images for geostastical simulation in Julia.*
 
-[![][build-img]][build-url] [![][codecov-img]][codecov-url]
+[![Build Status](https://github.com/JuliaEarth/GeoStatsImages.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/JuliaEarth/GeoStatsImages.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+[![Coverage](https://codecov.io/gh/JuliaEarth/GeoStatsImages.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaEarth/GeoStatsImages.jl)
 
 This package converts famous training images from the geostatistcs
 literature to a standard format for quick experimentation in Julia.
@@ -63,9 +64,3 @@ If you have any questions, please contact our community on the [gitter channel](
 [SNESIM-url]: https://link.springer.com/article/10.1023/A%3A1014009426274
 [IQSIM-url]: https://www.sciencedirect.com/science/article/pii/S0098300417301139
 [Imperial-college]: http://www.imperial.ac.uk/earth-science/research/research-groups/perm/research/pore-scale-modelling/micro-ct-images-and-networks
-
-[build-img]: https://img.shields.io/github/actions/workflow/status/JuliaEarth/GeoStatsImages.jl/CI.yml?branch=master&style=flat-square"
-[build-url]: https://github.com/JuliaEarth/GeoStatsImages.jl/actions
-
-[codecov-img]: https://codecov.io/gh/juliohm/GeoStatsImages.jl/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/juliohm/GeoStatsImages.jl
