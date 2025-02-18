@@ -3,8 +3,8 @@ GeoStatsImages.jl
 
 *Training images for geostastical simulation in Julia.*
 
-[![Build Status](https://github.com/JuliaEarth/GeoStatsImages.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/JuliaEarth/GeoStatsImages.jl/actions/workflows/CI.yml?query=branch%3Amaster)
-[![Coverage](https://codecov.io/gh/JuliaEarth/GeoStatsImages.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaEarth/GeoStatsImages.jl)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/JuliaEarth/GeoStatsImages.jl/CI.yml?branch=master&style=flat-square)](https://github.com/JuliaEarth/GeoStatsImages.jl/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/JuliaEarth/GeoStatsImages.jl?style=flat-square)](https://codecov.io/gh/JuliaEarth/GeoStatsImages.jl)
 
 This package converts famous training images from the geostatistcs
 literature to a standard format for quick experimentation in Julia.
