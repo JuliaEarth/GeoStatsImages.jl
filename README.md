@@ -56,7 +56,7 @@ Contributing
 
 Contributions are very welcome, as are feature requests and suggestions.
 
-If you have any questions, please contact our community on the [gitter channel](https://gitter.im/JuliaEarth/GeoStats.jl).
+If you have any questions, please [contact our community](https://juliaearth.github.io/GeoStats.jl/stable/about/community.html).
 
 [TI-book-url]: https://trainingimages.org
 [StanfordV-url]: https://pangea.stanford.edu/departments/ere/dropbox/scrf/documents/reports/12/SCRF1999_Report12/SCRF1999_shuguang/stanford4.ps.zip
