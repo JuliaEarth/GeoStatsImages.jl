@@ -1,5 +1,4 @@
-GeoStatsImages.jl
-=================
+# GeoStatsImages.jl
 
 *Training images for geostastical simulation in Julia.*
 
@@ -14,16 +13,37 @@ algorithms.
 
 **The author does not hold any copyright on the data. Please give credit to the sources in the table.**
 
-Usage
------
+## Usage
+
+The function `geostatsimage` takes an `identifier`
+as its only argument, which can be any of the strings
+listed with the `GeoStatsImages.available()` function:
 
 ```julia
-TI = geostatsimage(identifier)
+julia> geostatsimage("WalkerLake")
+160000×2 GeoTable over 400×400 CartesianGrid
+┌────────────┬───────────────────────────────────────────────────────────────┐
+│     Z      │                           geometry                            │
+│ Continuous │                          Quadrangle                           │
+│ [NoUnits]  │                     🖈 Cartesian{NoDatum}                      │
+├────────────┼───────────────────────────────────────────────────────────────┤
+│  0.256614  │  Quadrangle((x: 0.0 m, y: 0.0 m), ..., (x: 0.0 m, y: 1.0 m))  │
+│  0.260752  │  Quadrangle((x: 1.0 m, y: 0.0 m), ..., (x: 1.0 m, y: 1.0 m))  │
+│  0.26127   │  Quadrangle((x: 2.0 m, y: 0.0 m), ..., (x: 2.0 m, y: 1.0 m))  │
+│  0.24452   │  Quadrangle((x: 3.0 m, y: 0.0 m), ..., (x: 3.0 m, y: 1.0 m))  │
+│  0.220545  │  Quadrangle((x: 4.0 m, y: 0.0 m), ..., (x: 4.0 m, y: 1.0 m))  │
+│  0.211095  │  Quadrangle((x: 5.0 m, y: 0.0 m), ..., (x: 5.0 m, y: 1.0 m))  │
+│  0.21892   │  Quadrangle((x: 6.0 m, y: 0.0 m), ..., (x: 6.0 m, y: 1.0 m))  │
+│  0.239326  │  Quadrangle((x: 7.0 m, y: 0.0 m), ..., (x: 7.0 m, y: 1.0 m))  │
+│     ⋮      │                               ⋮                               │
+└────────────┴───────────────────────────────────────────────────────────────┘
+                                                           159992 rows omitted
 ```
-where `identifier` can be any of the strings listed with the command `GeoStatsImages.available()`
 
-Preview
--------
+The following section provides a preview of the available images
+along with their identifiers.
+
+## Preview
 
 | Identifier | Preview | Type | Data source |
 | ---------- |:-------:| ---- | ----------- |
@@ -51,8 +71,7 @@ Preview
 #### FlumeBinary
 ![FlumeBinaryPreview](src/data/FlumeBinary.png)
 
-Contributing
-------------
+## Contributing
 
 Contributions are very welcome, as are feature requests and suggestions.
 
