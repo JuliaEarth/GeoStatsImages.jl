@@ -11,13 +11,14 @@ It is part of the [GeoStats.jl](https://github.com/juliohm/GeoStats.jl)
 framework and can be used in conjunction with multiple-point simulation
 algorithms.
 
-**The author does not hold any copyright on the data. Please give credit to the sources in the table.**
+**The contributors of this package do not hold any copyright on the
+data. Please give credit to the sources listed on the preview table.**
 
 ## Usage
 
-The function `geostatsimage` takes an `identifier`
-as its only argument, which can be any of the strings
-listed with the `GeoStatsImages.available()` function:
+The `geostatsimage` function takes a string *identifier* as its
+only argument, and returns a geotable as discussed in the book
+[*Geospatial Data Science with Julia*](https://juliaearth.github.io/geospatial-data-science-with-julia):
 
 ```julia
 julia> geostatsimage("WalkerLake")
@@ -40,8 +41,8 @@ julia> geostatsimage("WalkerLake")
                                                            159992 rows omitted
 ```
 
-The following section provides a preview of the available images
-along with their identifiers.
+The list of available identifiers can be found with
+`GeoStatsImages.available()`.
 
 ## Preview
 
