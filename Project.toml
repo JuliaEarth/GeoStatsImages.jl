@@ -1,11 +1,11 @@
 name = "GeoStatsImages"
 uuid = "7cd16168-b42c-5e7d-a585-4f59d326662d"
 author = "Júlio Hoffimann <julio.hoffimann@gmail.com>"
-version = "1.1.0"
+version = "1.2.0"
 
 [deps]
 GslibIO = "4610876b-9b01-57c8-9ad9-06315f1a66a5"
 
 [compat]
 GslibIO = "1.0"
-julia = "1.9"
+julia = "1.10"
