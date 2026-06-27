@@ -1,11 +1,15 @@
 name = "GeoStatsImages"
 uuid = "7cd16168-b42c-5e7d-a585-4f59d326662d"
+version = "2.0.0"
 author = "Júlio Hoffimann <julio.hoffimann@gmail.com>"
-version = "1.2.2"
 
 [deps]
+DataScienceTraits = "6cb2f572-2d2b-4ba6-bdb3-e710fa044d6c"
 GslibIO = "4610876b-9b01-57c8-9ad9-06315f1a66a5"
+TableTransforms = "0d432bfd-3ee1-4ac1-886a-39f05cc69a3e"
 
 [compat]
+DataScienceTraits = "1.2"
 GslibIO = "1.0"
+TableTransforms = "1.38"
 julia = "1.10"

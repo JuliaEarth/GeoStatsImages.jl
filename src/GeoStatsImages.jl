@@ -5,34 +5,59 @@
 module GeoStatsImages
 
 using GslibIO
+using TableTransforms
+using DataScienceTraits
 
 export geostatsimage
 
 datadir = joinpath(@__DIR__, "data")
-fnames = [joinpath(datadir, fname) for fname in readdir(datadir)]
-
-isdata(fname) = occursin(r".*\.gslib", fname)
-id(fname) = splitext(basename(fname))[1]
-
-db = Dict(id(fname) => fname for fname in filter(isdata, fnames))
 
 """
-    available()
+    geostatsimage(name)
 
-List of identifiers for all available images.
+Load image with given `name` from database.
+
+Run [`GeoStatsImages.available()`](@ref) to
+see the list of available images.
 """
-available() = sort(collect(keys(db)))
+function geostatsimage(name)
+  if name ∉ keys(database())
+    throw(ArgumentError("""
+    image "$name" is not available.
+
+    Please choose one of the following names:
+
+    $(join(available(), "\n"))
+    """))
+  end
+
+  geotable = GslibIO.load(joinpath(datadir, name * ".gslib"))
+
+  iscategorical = startswith(first(names(geotable)), "code")
+
+  if iscategorical
+    geotable |> Replace(NaN => missing) |> Coerce(Categorical)
+  else
+    geotable
+  end
+end
 
 """
-    geostatsimage(id)
+    GeoStatsImages.available()
 
-Load image from geostatistics literature based on
-a given identifier `id`. For a list of available
-identifiers, run `GeoStatsImages.available()`.
+Lists all available image names in the database.
 """
-function geostatsimage(id)
-  @assert id ∈ keys(db) "image not available"
-  GslibIO.load(joinpath(datadir, id * ".gslib"))
+available() = sort(collect(keys(database())))
+
+"""
+    GeoStatsImages.database()
+
+Returns a dictionary of all available images in the database.
+"""
+function database()
+  id(fname) = first(splitext(basename(fname)))
+  fnames = [joinpath(datadir, fname) for fname in readdir(datadir)]
+  Dict(id(fname) => fname for fname in filter(endswith(".gslib"), fnames))
 end
 
 end
