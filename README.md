@@ -13,7 +13,7 @@ algorithms.
 
 The standard format is a geotable as discussed in the book
 [*Geospatial Data Science with Julia*](https://juliaearth.github.io/geospatial-data-science-with-julia).
-Continuous variables as stored as `"value"` whereas categorical
+Continuous variables as stored as `"value"` and categorical
 variables are stored `"code"`.
 
 **The contributors of this package do not hold any copyright on the
@@ -21,9 +21,9 @@ data. Please give credit to the sources listed on the preview table.**
 
 ## Usage
 
-The `geostatsimage` function takes an image *name* and returns a
-geotable. Please run `GeoStatsImages.available()` to discover all
-available image names.
+The `geostatsimage` function takes an image *name* as input and
+returns a geotable. Please run `GeoStatsImages.available()` to
+discover all available image names.
 
 ```julia
 julia> geostatsimage("WalkerLake")
